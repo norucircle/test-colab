@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+<div class="container">
+    <center><h1>ทำนายประเภทดอกกล้วยไม้ครับ</h1></center>
+    <form action="/predict" method="POST">
+        <div class="form-group">
+            <label>ความยาวกลีบเลี้ยง</label>
+            <input type="number" class="form-control" name="sl">
+        </div>
+        <div class="form-group">
+            <label>ความกว้างกลีบเลี้ยง</label>
+            <input type="number" class="form-control" name="sw">
+        </div>
+        <div class="form-group">
+            <label>ความยาวกลีบดอก</label>
+            <input type="number" class="form-control" name="pl">
+        </div>
+        <div class="form-group">
+            <label>ความกว้างกลีบดอก</label>
+            <input type="number" class="form-control" name="pw">
+        </div>
+        <br>
+        <button class="btn btn-warning d-flex justify-content-center" type="submit">ส่งคำตอบ</button>
+    </form>
+</div>
+
+
+</body>
+</html>
