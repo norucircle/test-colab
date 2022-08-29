@@ -1,5 +1,11 @@
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn.datasets import load_iris
+import tensorflow as tf
+from tensorflow.keras import layers, Model
+from tensorflow import keras
+import os, sys
+
+from PIL import Image, ImageOps, ImageFile
+
+
 
 def iris_data_prediction(sepal_length, sepal_width, petal_length, petal_width):
     iris = load_iris()
