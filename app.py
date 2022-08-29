@@ -2,12 +2,12 @@ from flask import Flask, render_template, request
 
 from main import iris_data_prediction
 
-import tensorflow as tf
-from tensorflow.keras import layers, Model
-from tensorflow import keras
-import os, sys
+# import tensorflow as tf
+# from tensorflow.keras import layers, Model
+# from tensorflow import keras
+# import os, sys
 
-from PIL import Image, ImageOps, ImageFile
+# from PIL import Image, ImageOps, ImageFile
 
 app = Flask(__name__)
 
