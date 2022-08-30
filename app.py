@@ -1,8 +1,8 @@
 from flask import Flask, render_template, request
 
-# import tensorflow as tf
-# from tensorflow.keras import layers, Model
-# from tensorflow import keras
+import tensorflow as tf
+from tensorflow.keras import layers, Model
+from tensorflow import keras
 # import os, sys
 
 # from PIL import Image, ImageOps, ImageFile
